@@ -1,0 +1,47 @@
+h1 {
+    color:white;
+    font-size: 200%
+}
+img{
+
+}
+
+p{
+    color:#000000;
+
+}
+body {
+    background-color:#FFFFFF;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#horizontal_nav ul {
+    list-style: none;
+    padding: 1%;
+    border-radius: 20;
+    text-align: center;
+    background: black;
+
+  }
+  #horizontal_nav li {
+    display: inline;
+  }
+  #horizontal_nav a {
+    display: inline-block;
+    padding: 0.25em 1em;
+    color: gray;
+     text-decoration: none;
+    padding: 1em;
+    font-family: sans-serif;
+
+  }
+  #horizontal_nav a:hover{
+    background: white;
+  }
+  body{
+    background: gray;
+  }
