@@ -1,0 +1,35 @@
+body{
+  background-color: gray;
+}
+#photo{
+  float:right;
+}
+#photo{
+  border-radius: 50%;
+}
+#horizontal_nav ul {
+   list-style: none;
+   padding: 1%;
+   border-radius: 20;
+   text-align: center;
+   background: black;
+
+ }
+ #horizontal_nav li {
+   display: inline;
+   width: 7%;
+}
+
+ #horizontal_nav a {
+   display: inline-block;
+   padding: 0.25em 5em;
+   color: darkgray;
+    text-decoration: none;
+   padding: 1em;
+   border-radius: 4 0%;
+   font-family: sans-serif;
+
+ }
+ #horizontal_nav a:hover{
+   background: white;
+ }
