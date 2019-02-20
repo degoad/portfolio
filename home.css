@@ -1,5 +1,5 @@
 body{
-  background-color: gray;
+  background-color: mediumaquamarine;
 }
 #photo{
   float:right;
@@ -12,7 +12,7 @@ body{
    padding: 1%;
    border-radius: 20;
    text-align: center;
-   background: black;
+   background: firebrick;
 
  }
  #horizontal_nav li {
@@ -23,7 +23,7 @@ body{
  #horizontal_nav a {
    display: inline-block;
    padding: 0.25em 5em;
-   color: darkgray;
+   color: azure;
     text-decoration: none;
    padding: 1em;
    border-radius: 4 0%;
@@ -31,5 +31,5 @@ body{
 
  }
  #horizontal_nav a:hover{
-   background: white;
+   background: lightcoral;
  }
