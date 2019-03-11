@@ -33,3 +33,10 @@ body{
  #horizontal_nav a:hover{
    background: lightcoral;
  }
+#footer{
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
