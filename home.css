@@ -42,6 +42,7 @@ body{
   text-align: center;
 }
 .new{
-  border-style:
+  border-style: dashed;
   width: 50%;
+  text-align: center;
 }
