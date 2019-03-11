@@ -45,3 +45,6 @@ body {
   body{
     background: mediumaquamarine;
   }
+  .info{
+    decoration: dotted;
+  }
