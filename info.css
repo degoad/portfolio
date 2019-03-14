@@ -46,7 +46,7 @@ body {
     background: mediumaquamarine;
   }
   .info{
-    border-style: solid;
+    border-style: dashed;
     border-width: 20%;
   }
   .footer{
