@@ -46,8 +46,9 @@ body {
     background: mediumaquamarine;
   }
   .info{
-    border-style: dashed;
-    border-width: 20%;
+    border-style: solid;
+    border-width: 50%;
+    border-right: 20%;
   }
   .footer{
     position: absolute;
