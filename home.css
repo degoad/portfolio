@@ -41,3 +41,12 @@ body{
   color: black;
   text-align: center;
 }
+
+#input, select, textarea {
+  width: 80%
+  padding:12px;
+  border:1px solid;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
