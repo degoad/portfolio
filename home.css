@@ -42,11 +42,12 @@ body{
   text-align: center;
 }
 
-#input, select, textarea {
-  width: 80%
-  padding:12px;
-  border:1px solid;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  resize: vertical;
+input, select, textarea {
+  width: 80%;
+  padding: 16px;
+  border: 1px solid ;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 16px;
 }
