@@ -1,53 +1,97 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Portfolio</title>
-         <link rel="stylesheet" type="text/css" href="home.css">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Dokota's Portfolio</title>
+  </head>
+  <body>
+<nav>
+  <span>Dokota's Portfolio</span>
+<ul>
+  <li>
+    <a href="#home">Home</a>
+  </li>
+  <li>
+    <a href="#portfolio">Portfolio</a>
+  </li>
+  <li>
+    <a href="#about">About</a>
+  </li>
+  <li>
+    <a href="#contact">Contact Me</a>
+  </li>
+</ul>
+</nav>
 
-    </head>
+<section class="hero" id="home">
+  <img src="https://fakeimg.pl/250x250/">
+  <h1>Dokota's Portfolio</h1>
+  <h2>Web Devloper &middot; Graphic Designer</h2>
+</section>
+<section class="work" id="portfolio">
+<h1>Portfolio</h1>
+<div class="container">
+  <div class="box">
+    image and text
+  </div>
+  <div class="box">
+    image and text
+  </div>
+  <div class="box">
+    image and text
+  </div>
+</div>
+</section>
+<section class="about" id="about">
+<h1>About me</h1>
+<p>Hello my name is Dokota Goad and I am going to Lewis-Clark State College (LCSC) I studied information technology then swiched over to web desgin and development. I like video games in my spare time and meeting new people and hanging out with others. </p>
+<a href="#">
+Download My Resume
+</a>
+</section>
+<section class="contact" id="contact">
+<div class="contact-form">
+  <h1>Contact Me</h1>
+  <label for="">Your Name</label>
+  <input type="text" name="name" id="name">
 
-    <body>
-      <nav id= "horizontal_nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">My Work</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="contact.html">Contact</a></li>
+  <label for="">Email Adress</label>
+  <input type="text" name="email" id="email">
 
-        </ul>
-      </nav>
-      <!-- IDEA: got this from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_section -->
-      <!-- IDEA:  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form-->
-      <!-- IDEA: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
-      <!-- IDEA: was a last minute thing will fix later but need help -->
-<div class="colum">
-  <form class="" action="index.html" method="post">
-    <label for="fname">First name</label>
-    <br>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    <br>
-    <label for="lname">Last name</label>
-    <br>
-    <input type="text" id="lname"name="lastname" placeholder="Your last name..">
-    <br>
-    <label for="country">Country</label>
-    <br>
-    <select id="country" name="country">
-      <option value="usa">USA</option>
-      <option value="canada">Canada</option>
-    </select>
-    <br>
-    <label for="subject">Subject</label>
-    <br>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
-    <br>
-    <input type="submit" value="Submit">
-  </form>
+  <label for="">Phone Number</label>
+  <input type="text" name="phone" id="phone">
+
+  <label for="">Message</label>
+  <textarea name="messaage" id="message"></textarea>
+
+  <button type="submit">Send me a message</button>
+
+
 
 </div>
-      <div class="footer">
-        <p>Made by Dokota Goad</p>
-      </div>
-    </body>
+</section>
+<footer> <p>
+  <a href="#">
+    <i class="fab fa-facebook-square"></i>
 
+  </a>
+  <a href="#">
+    <i class="fab fa-instagram"></i>
+
+  </a>
+  <a href="#">
+    <i class="fab fa-github"></i>
+
+  </a>
+</p>
+<p>
+  &copy; <span id="year"></span>
+</p></footer>
+<script>
+document.getElementById("year").innerHTML = (new Date()).getFullYear();
+</script>
+  </body>
 </html>
